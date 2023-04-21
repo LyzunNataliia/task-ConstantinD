@@ -1,7 +1,46 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+img {
+  max-width: 100%;
+}
 .link {
   text-decoration: none;
-  text-transform: none;
+}
+.lists {
+  list-style-type: none;
+}
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+.header {
+  background-color: #000;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.header-btn {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.header-btn__pic {
+  color: #000;
+}
+.header-nav__link {
+  color: #fff;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
 }
