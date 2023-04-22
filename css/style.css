@@ -123,6 +123,14 @@ img {
 .hero-left-link__text {
   padding-right: 30px;
 }
+.hero-left-link__icon {
+  position: relative;
+}
+.hero-left-link__icon svg {
+  position: absolute;
+  top: -5px;
+}
+
 .hero-right {
   position: relative;
   display: flex;
