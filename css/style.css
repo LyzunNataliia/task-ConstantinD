@@ -161,7 +161,7 @@ img {
 .section-title {
   position: relative;
   overflow: hidden;
-  max-width: 30%;
+  /* max-width: 30%; */
 }
 .section-title__text {
   font-weight: 800;
@@ -240,7 +240,8 @@ img {
 
 /* IVENT */
 .section-ivent {
-  padding-bottom: 126px;
+  padding-top: 126px;
+  background-color: #000;
 }
 .section-ivent-container {
   display: grid;
@@ -248,4 +249,27 @@ img {
 }
 .section-ivent-title__border {
   background-color: #fe3c02;
+}
+.section-ivent-title__text {
+  color: #fff;
+}
+.section-ivent-nav__item {
+  padding: 20px 52px 20px 55px;
+}
+.section-ivent-nav__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+.section-ivent-link__text {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 51px;
+  color: #fff;
+}
+.section-ivent-link__right {
+  color: #fff;
+}
+.section-ivent-nav__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
