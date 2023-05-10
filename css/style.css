@@ -264,10 +264,12 @@ img {
 }
 .section-ivent-container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr max-content;
+  gap: 5%;
 }
 .section-ivent-title {
-  overflow: hidden;
+  /* overflow: hidden; */
+  margin-right: 40px;
 }
 .section-ivent-title__text {
   color: #fff;
@@ -318,22 +320,103 @@ img {
   color: #fff;
 }
 .section-ivent-nav__link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 394px minmax(300px, 1fr);
 }
 
-.section-ivent-nav__link1 {
+.section-ivent-nav__bgi1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(/img/ivent-the-best-city.jpg);
+    url(/img/ivent-the-best-city.jpg) no-repeat center/cover;
 }
-.section-ivent-nav__link1:hover {
+.section-ivent-nav__bgi1:hover {
   background: linear-gradient(
       0deg,
       rgba(254, 60, 2, 0.8),
       rgba(254, 60, 2, 0.8)
     ),
-    url(/img/ivent-the-best-city.jpg), no-repeat;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
+    url(/img/ivent-the-best-city.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-robert-plant.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi2:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-robert-plant.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi3 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-moto-fest.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi3:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-moto-fest.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi4 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-yuriy-antonov.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi4:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-yuriy-antonov.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi5 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-backstreetB2.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi5:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-backstreetB2.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi6 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-moto-fest.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi6:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-moto-fest.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi7 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-one-republic.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi7:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-one-republic.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi8 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(/img/ivent-the-best-city.jpg) no-repeat center/cover;
+}
+.section-ivent-nav__bgi8:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(254, 60, 2, 0.8),
+      rgba(254, 60, 2, 0.8)
+    ),
+    url(/img/ivent-the-best-city.jpg) no-repeat center/cover;
 }
