@@ -300,7 +300,7 @@ img {
 }
 .section-ivent-container {
   display: grid;
-  grid-template-columns: 1fr max-content;
+  grid-template-columns: minmax(200px, 330px) 1fr;
   gap: 10%;
 }
 .section-ivent-title {
@@ -343,16 +343,15 @@ img {
 }
 .section-ivent-nav__list {
   display: grid;
+  max-width: 100%;
   grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: minmax(500px, 770px);
   grid-auto-rows: 1fr;
   row-gap: 30px;
   padding: 0;
 }
 .section-ivent-nav__item {
-  padding: 20px 52px 20px 55px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
 }
 .section-ivent-nav__item:not(:last-child) {
   justify-self: end;
@@ -373,8 +372,12 @@ img {
 }
 
 .section-ivent-nav__link {
+  height: 100%;
+  padding: 20px 52px 20px 55px;
   display: grid;
-  grid-template-columns: 394px minmax(200px, 1fr);
+  grid-template-columns: 60% 40%;
+  justify-content: center;
+  align-content: center;
 }
 
 .section-ivent-nav__bgi1 {
