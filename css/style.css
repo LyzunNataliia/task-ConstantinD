@@ -138,7 +138,7 @@ img {
   color: rgba(255, 255, 255, 0.7);
 }
 .hero-left-action__link {
-  display: block;
+  display: inline-block;
   font-weight: 700;
   font-size: 16px;
   line-height: 51px;
@@ -148,11 +148,29 @@ img {
   color: #fe3c02;
   transition: 0.35s;
   position: relative;
+  z-index: 2;
 }
-.hero-left-action__link:hover,
+.hero-left-action__link::before {
+  content: "";
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -4%;
+  z-index: -1;
+  opacity: 0;
+  background-color: #cdcdcd;
+  transition: width 0.7s, opacity 0.35s;
+}
+.hero-left-action__link:hover::before {
+  width: 110%;
+  opacity: 1;
+}
+/* .hero-left-action__link:hover,
 .hero-left-action__link:hover .hero-left-link__icon {
-  color: #cdcdcd;
-}
+
+  background-color: #cdcdcd;
+} */
 
 .hero-left-link__text {
   display: inline-block;
