@@ -516,7 +516,7 @@ img {
 }
 .section-gallery-content {
   display: grid;
-  grid-template-columns: 1fr max-content;
+  grid-template-columns: minmax(100px, 300px) 1fr;
 }
 .section-gallery-title__text {
   color: #000;
@@ -529,8 +529,7 @@ img {
 .section-gallery-img {
   padding-top: 90px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 270px));
-  grid-template-rows: repeat (3, minmax(200px, 270px));
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
   gap: 30px;
   position: relative;
 }
