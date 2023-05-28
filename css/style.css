@@ -241,6 +241,20 @@ img {
   position: relative;
   color: #000;
 }
+.section-poster-link::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #cdcdcd;
+  transition: width 0.3s;
+}
+.section-poster-link:hover:before {
+  width: 100%;
+}
 .section-poster-item:not(:last-child) {
   margin-right: 70px;
 }
