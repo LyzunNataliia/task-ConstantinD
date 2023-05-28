@@ -237,7 +237,11 @@ img {
 .section-poster-item {
   flex: 1 1 33.33%;
 }
+.section-poster-item:not(:last-child) {
+  margin-right: 70px;
+}
 .section-poster-link {
+  flex: 1 1 100%;
   position: relative;
   color: #000;
 }
@@ -255,9 +259,7 @@ img {
 .section-poster-link:hover:before {
   width: 100%;
 }
-.section-poster-item:not(:last-child) {
-  margin-right: 70px;
-}
+
 .section-poster-item__date {
   position: relative;
 }
