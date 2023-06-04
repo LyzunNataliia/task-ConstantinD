@@ -16,7 +16,8 @@ img {
   list-style-type: none;
 }
 .container {
-  max-width: 1170px;
+  max-width: 1190px;
+  padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -614,6 +615,7 @@ img {
 }
 .footer-bootom {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
 }
