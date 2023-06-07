@@ -3,6 +3,46 @@
     max-width: 314px;
     padding: 0;
   }
+  /* ***Event*** */
+  .section-ivent {
+  }
+  .section-ivent-container {
+    display: block;
+    position: relative;
+    padding-bottom: 80px;
+  }
+  .section-ivent-text {
+    display: none;
+  }
+  .section-ivent-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .section-ivent-nav__list {
+    row-gap: 0;
+  }
+  .section-ivent-nav__link {
+    background: black;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+    padding: 18px 0;
+    grid-template-columns: max-content 1fr max-content;
+    gap: 22px;
+  }
+  .section-ivent-link-avatar {
+    display: block;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+  }
+  .section-ivent-link__text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-ivent-link__right {
+    color: #fe3c02;
+  }
+  /* ***Gallery*** */
   .section-gallery {
     padding-top: 80px;
     padding-bottom: 68px;

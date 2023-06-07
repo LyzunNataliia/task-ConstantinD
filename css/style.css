@@ -380,7 +380,7 @@ img {
   display: grid;
   max-width: 100%;
   grid-template-rows: repeat(8, 1fr);
-  grid-template-columns: minmax(500px, 770px);
+  grid-template-columns: minmax(200px, 770px);
   grid-auto-rows: 1fr;
   row-gap: 30px;
   padding: 0;
@@ -414,7 +414,9 @@ img {
   justify-content: center;
   align-content: center;
 }
-
+.section-ivent-link-avatar {
+  display: none;
+}
 .section-ivent-nav__bgi1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url(/img/ivent-the-best-city.jpg) no-repeat center/cover;
