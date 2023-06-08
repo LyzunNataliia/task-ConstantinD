@@ -3,6 +3,16 @@
     max-width: 314px;
     padding: 0;
   }
+  /* ***HERO*** */
+  .hero-container {
+    display: block;
+  }
+
+  /* ***POSTER*** */
+  .section-poster {
+    display: none;
+  }
+
   /* ***Event*** */
   .section-ivent {
     padding-top: 90px;
