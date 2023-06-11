@@ -4,8 +4,40 @@
     padding: 0;
   }
   /* ***HERO*** */
+  .section-hero {
+    padding-bottom: 30px;
+  }
   .hero-container {
     display: block;
+  }
+  .hero-left {
+    max-width: 95%;
+    margin-bottom: 88px;
+  }
+  .hero-left-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-left-link__text,
+  .hero-left-link__icon {
+    display: none;
+  }
+  .hero-left-link__text2 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 51px;
+
+    text-decoration-line: underline;
+  }
+  .hero-right-wrap {
+    display: block;
+    /* margin: 0 auto; */
+    padding: 0 0 61% 0;
+    max-width: 304px;
+  }
+  .hero-right-wrap iframe {
+    top: 0;
   }
 
   /* ***POSTER*** */

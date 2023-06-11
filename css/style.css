@@ -130,19 +130,19 @@ img {
   font-size: 40px;
   line-height: 51px;
   color: #fff;
+  margin-bottom: 40px;
 }
 .hero-left-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   color: rgba(255, 255, 255, 0.7);
+  margin-top: 0;
 }
 .hero-left-action__link {
   display: inline-block;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 51px;
-  text-transform: uppercase;
+  text-decoration: none;
   text-align: justify;
 
   color: #fe3c02;
@@ -169,7 +169,14 @@ img {
 
 .hero-left-link__text {
   display: inline-block;
+  text-decoration: none;
   padding-right: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 51px;
+}
+.hero-left-link__text2 {
+  display: none;
 }
 .hero-left-link__icon {
   display: inline-block;
