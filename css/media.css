@@ -3,6 +3,12 @@
     max-width: 314px;
     padding: 0;
   }
+
+  /* ***HEADER*** */
+  .header-nav {
+    display: none;
+  }
+
   /* ***HERO*** */
   .section-hero {
     padding-bottom: 30px;
