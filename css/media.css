@@ -5,6 +5,9 @@
   }
 
   /* ***HEADER*** */
+  .header-content {
+    grid-template-columns: minmax(170px, 1fr) minmax(20px, 56px) min-content;
+  }
   .header-nav {
     display: none;
   }

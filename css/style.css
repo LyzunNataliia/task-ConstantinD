@@ -28,7 +28,7 @@ img {
 }
 .header-content {
   display: grid;
-  grid-template-columns: minmax(170px, 400px) minmax(20px, 56px) 1fr;
+  grid-template-columns: minmax(170px, 34%) minmax(20px, 56px) 1fr;
   align-items: center;
   padding-top: 40px;
   padding-bottom: 10px;
